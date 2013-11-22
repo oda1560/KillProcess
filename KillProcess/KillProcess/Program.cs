@@ -39,7 +39,7 @@ namespace KillProcess
                     process.Kill();
                 });
             Console.WriteLine("Done!");
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         static bool containsCommandLineFragment(string commandLineFragment, int processId)
